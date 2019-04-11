@@ -1,0 +1,8 @@
+1. Why use CSS to add effects to your site instead of JavaScript? When might it be better to use JavaScript?
+
+One reason to use CSS instead of JavaScript to add effects to your site is that JavaScript sometimes requires an external library, which can be costly.  Similarly, animations done with CSS can also have better performance than those done with JavaScript.  As a result, CSS is optimal for relatively simple animations.  JavaScript is a more powerful tool for advanced animations, as it allows you to add and control complex effects with much less code than required for CSS.
+
+
+2. What do the percentages within keyframes animations mean? How do you set how long the animation should take to run?
+
+The percentages within keyframes animations indicate the element's state is that percent complete (e.g., 5% { background-color: green;} 10% {background-color: yellow;} indicates that the element's background color should be green when the animation is 5% complete, and yellow when the animation is 10% complete). The "animation-duration" property controls how long the animation should take to run. 
